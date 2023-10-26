@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+    body {
+        background: black;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .loginForm {
+        width: 350px;
+        padding: 10%;
+        margin: auto;
+
+    }
+
+    .form {
+        background: whitesmoke;
+        max-width: 360px;
+        margin: 0 auto 100px;
+        padding: 45px;
+        text-align: center;
+    }
+
+    .form input {
+        font-family: "Roboto", sans-serif;
+        outline: 0;
+        background: rgb(228, 222, 222);
+        width: 100%;
+        border: 1px solid black;
+        margin: 0 0 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    .btn {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        background: rgb(1, 179, 164);
+        width: 100%;
+        border: none;
+        padding: 15px;
+        color: white;
+        font-size: 16px;
+    }
+
+    .btn:hover,
+    .btn:active,
+    .btn:focus {
+        background: rgb(7, 154, 165);
+    }
+
+    .message {
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+        color: black;
+        font-size: 15px;
+    }
+
+    .message a {
+        color: rgb(1, 179, 164);
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <div class="loginForm">
+        <div class="form">
+            <form onsubmit="handleLogin(); return false">
+
+                <input type="text" placeholder="Enter Username" id="username" required>
+                <input type="password" placeholder="Enter Password" id="password" required>
+                <button class="btn" type="submit">Login</button>
+                <p class="message">Not registered? <a href="#">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="resume.js"></script>
+
+</body>
+
+</html>

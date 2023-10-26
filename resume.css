@@ -1,0 +1,162 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: system-ui;
+}
+
+body {
+	background: black;
+}
+
+.col-div-6 {
+	width: 50%;
+	float: left;
+	position: relative;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.resume-main {
+	width: 700px;
+	height: 800px;
+	background: rgb(1, 179, 164);
+	margin: 50px auto;
+	box-shadow: 5px 5px 5px 5px #54585d33;
+}
+
+.left-box {
+	width: 35%;
+	float: left;
+	height: 100px;
+	padding: 15px;
+}
+
+.right-box {
+	width: 65%;
+	float: left;
+	background-color: white;
+	height: 700px;
+	margin: 50px 0px;
+	border-radius: 50px 0px 0px 50px;
+	padding: 30px 50px;
+	box-shadow: -7px 2px 15px 2px #54585d52;
+}
+
+.profile {
+	width: 200px;
+	height: 200px;
+	background-color: rgb(1, 179, 164);
+	border-radius: 100%;
+}
+
+.profile img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.content-box {
+	font-size: 14px;
+	list-style: none;
+}
+
+.content-box h2 {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.hr1 {
+	border: none;
+	height: 1px;
+	background: white;
+	margin-top: 3px;
+}
+
+.icon {
+	font-size: 18px;
+	color: black;
+}
+
+.text {
+	font-weight: 600;
+	font-size: 12px;
+	color: white;
+}
+
+.content-box h3 {
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-top: 10px;
+	color: white;
+	font-weight: 500;
+}
+
+.p2 {
+	font-weight: 500px;
+	font-size: 13px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	color: white;
+}
+
+.circle {
+	color: white;
+	font-size: 14px !important;
+	margin-top: 7px;
+}
+
+.circle1 {
+	color: grey;
+	font-size: 14px !important;
+	margin-top: 7px;
+}
+
+.inp {
+	color: white;
+	font-size: 16px;
+	font-weight: 600px;
+}
+
+h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: darkslategrey;
+	line-height: 50px;
+}
+
+.p3 {
+	letter-spacing: 4px;
+	color: black;
+	font-weight: 600;
+}
+
+.heading {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: var(--one);
+	font-size: 22px;
+}
+
+.hr2 {
+	border: none;
+	height: 1px;
+	background: black;
+	margin-top: 5px;
+}
+
+.p5 {
+	font-weight: 700;
+	color: black;
+}
+
+.span1 {
+	font-size: 12px;
+	color: black;
+}
